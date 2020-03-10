@@ -1,0 +1,365 @@
+header{
+	background-color: #D097C2;
+	width:100%;
+}
+header ul{
+	margin: 0px;
+	padding:0px;
+	display: flex;
+	justify-content: flex-end;
+}
+.plus{
+	margin:0px;
+	padding:0px;
+	width:50px;
+	height:50px;
+}
+header ul li{
+	margin-left:25px;
+	list-style: none;
+	font-family: 'Poiret One', cursive;
+	font-size:30px;
+	color:black;
+}
+.Albums{
+	background-color:#21E9D1;
+	margin:0px;
+	padding:0px;
+	display:flex;
+	width:100%;
+}
+.top-image{
+	background-image:url("top-image.png"); 
+	background-repeat: no-repeat;
+	background-size:100% auto ;
+	height: 700px;
+	width:100%;
+	background-position: 40% 65%;
+}
+.font1{
+	font-family: 'Poiret One', cursive;
+	font-style:regular;
+	font-size: 80px;
+	padding:20% 0% 0% 10%;
+	margin:0%;
+	color:black;
+}
+.section-three{
+	margin-left:50%;
+	font-family: 'Poiret One', cursive;
+	font-size:large;
+	color:black;
+}
+
+section ul li{
+	list-style: none;
+
+}
+.albums-list{
+	background-color: #D097C2;
+
+}
+.albums-list ul{
+	display: flex;
+	justify-content: space-between;
+	flex-wrap: wrap;
+	margin: 0;
+	padding: 0 50px;
+
+}
+.albums-list ul li{
+	width:30%;
+	font-family: 'Poiret One', cursive;
+}
+.albums-list img {
+	width: 100%;
+}
+.tour{
+	background-color:#21E9D1;
+	margin:0px;
+	padding:0px;
+	display:flex;
+	width:100%;
+	font-family:'Poiret One', cursive;
+	font-size:25px;
+}
+.tour h1{
+	margin-left: 50%;
+	color:black;
+}
+/* #Universal and Default Styles
+–––––––––––––––––––––––––––––––––––––––––––––––––– */
+body {
+  background: url(https://s3-us-west-2.amazonaws.com/s.cdpn.io/323039/black-wood-small.jpg);
+  color:#ddd;
+  font-family: "Open Sans", sans-serif;
+  font-size: 26px;
+  font-weight: 600;
+  line-height: 1;
+	margin:0;
+	padding:0;
+}
+.container {
+  margin: auto;
+  text-align: center; 
+  width: 940px;
+}
+h1 {
+  font-size: 40px;
+  font-weight: 700;
+  margin-top: 30px;
+}
+h2 {
+  font-size: 15px;
+  font-weight: 400;
+  margin-top: 10px;
+}
+.shape-section {
+  	margin-top: 30px;
+  	padding: 40px 0;
+  	background-image: url("background1.png");
+  	background-repeat: no-repeat;
+	background-size:100% auto ;
+	height: 800px;
+	width:75%;
+	background-position: 40% 65%;
+	margin-left: 15%;
+	margin-top:5%;
+}
+.tour-diamond-shape {
+  	background: rgba(33, 233, 209, .7);
+  	height: 600px;
+  	text-align: center;
+  	transform:rotate(45deg);
+	width:600px;
+	margin-top:85px;
+}
+.item-count {
+  	color: #333;
+  	display: table-cell;
+  	height: 400px;
+  	transform: rotate(-45deg);
+  	vertical-align: middle;
+	width:400px;
+	padding-left: 25px;
+}
+
+.tour-date {
+	display: flex;
+	justify-content: space-between;
+}
+.albums-list ul li{
+	color:black;
+}
+.about{
+	background-image: url(about-image.png);
+	width:100%;
+	background-repeat: no-repeat;
+	background-size:100% auto ;
+	padding: 100px 0;
+	background-position: 40% 65%;
+	margin-top:5%;
+	text-align: center;
+	
+}
+.about p{
+	font-family: 'Julius Sans One', sans-serif;
+	font-size:70px;
+	color:white;
+	text-align: center;
+	/*margin-top:50%;*/
+}
+.tour-date p{
+	font-size:12px;
+	margin-top:1%;
+	font-family: 'Julius Sans One', sans-serif;
+}
+h2{
+	font-family:'Poiret One', cursive;
+	font-size:50px;
+	margin: 150px 0 50px 0;
+}
+.bio{
+	font-family: 'Julius Sans One', sans-serif;
+	display:flex;
+}
+.albums-list ul li p{
+	font-family: 'Julius Sans One', sans-serif;
+	font-size:10px;
+}
+.bio p{
+	font-size:25px;
+	margin-right: 250px;
+	margin-left:100px;
+}
+.bio img{
+	margin-right: 100px;
+}
+.shape-section2{
+  	background-image: url("outdoor.png");
+  	width:70%;
+  	background-repeat:no-repeat;
+	margin-top: 200px;
+	margin-left:200px;
+}
+.tour-diamond-shape2 {
+  	background: rgba(33, 233, 209, .7);
+  	height:700px;
+  	text-align: center;
+  	transform:rotate(45deg);
+	width:700px;
+	margin-top:85px;
+}
+.tour-diamond-shape2 h2{
+	padding-left: 100px;
+}
+.item-count2 {
+  	color: #333;
+  	display: table-cell;
+  	height: 400px;
+  	transform: rotate(-45deg);
+  	vertical-align: middle;
+	width:400px;
+	padding-left: 25px;
+}
+.contact{
+	font-family:'Poiret One', cursive;
+	font-size:20px;
+	margin-top:100px;
+	position:static;
+	text-align: center;
+	
+	
+}
+form {
+	display: flex;
+	flex-wrap: wrap;
+	justify-content: space-between;	
+}
+.formset {
+	width: 45%;
+	display: flex;
+	flex-direction: column;
+}
+.formset:last-of-type {
+	width: 100%;
+}
+input[type=text]{
+	padding: 10px 20px;
+	width: 100%;
+	-webkit-appearance: none;
+	border: none;
+	box-sizing: border-box;
+	margin-bottom: 100px;
+	margin-left: 50px;
+}
+textarea {
+	width: 100%;
+	padding: 10px;
+	min-height: 100px;
+	-webkit-appearance: none;
+	border: none;
+	box-sizing: border-box;
+	margin-left: 50px;
+}
+input[type=submit] {
+	width: 100%;
+	-webkit-appearance: none;
+	border: none;
+	box-sizing: border-box;
+	background-color: transparent;
+	color: black;
+	margin-left: 50px;
+}
+.footer{
+	background-color: black;
+	height:500px;
+
+}
+.footer h1{
+	color:white;
+	width:100%;
+	margin-top:200px;
+}
+.footer h1{
+	font-family:'Poiret One', cursive;
+	text-align: center;
+	font-size:60px;
+}
+.social-diamonds {
+	width: 60%;
+	margin: 0 auto;
+	display: flex;
+	justify-content: center;
+	position: relative;
+	margin-left:515px;
+	margin-top:100px;
+}
+.social-diamond-shape {
+	background: rgba(33, 233, 209, .7);
+  	height:100px;
+  	text-align: center;
+  	transform:rotate(45deg);
+	width:100px;
+	position: absolute;	
+
+}
+#shape-1 {
+	top: 0;
+	left: 0;
+	background-color:#C89FC4;
+}
+#shape-2 {
+	top: 75px;
+	left: 75px;
+	background-color:#C89FC4;
+}
+#shape-3{
+	left:151px;
+	background-color:#21E9D1;
+}
+#shape-4{
+	top: 75px;
+	left: 228px;
+	background-color:#C89FC4;
+}
+#shape-5{
+	left:305px;
+	background-color:#C89FC4;
+}
+.social-icon{
+	color: #333;
+  	display: table-cell;
+  	height: 100px;
+  	transform: rotate(-45deg);
+  	vertical-align: middle;
+	width:100px;
+	position: relative;
+}
+.social-diamonds a img{
+	width:50px;
+	height:50px;
+}
+#shape-2 img{
+	width:50px;
+	height:70px;
+}
+#shape-3 img{
+	width:50px;
+	height:50px;
+}
+#shape-4 img{
+	width:50px;
+	height:50px;
+}
+#shape-5 img{
+	width:50px;
+	height:50px;
+}
+.copy{
+	margin-top:300px;
+	margin-left:10px;
+}
+html{
+	scroll-behavior: smooth;
+}
